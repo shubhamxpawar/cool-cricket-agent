@@ -35,24 +35,25 @@ This is not a single-prompt chatbot. The system utilizes four distinct, highly s
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/shubhamxpawar/cool-cricket-agent.git](https://github.com/shubhamxpawar/cool-cricket-agent.git)
+   git clone https://github.com/shubhamxpawar/cool-cricket-agent.git
    cd cool-cricket-agent
    ```
 
-2. Install dependencies:
+2. **Install dependencies:**
 
 ```bash
 npm install
 ```
 
-3. Set up Environment Variables:
+3. **Set up Environment Variables:**
 Create a .env file in the root directory and add your API keys:
+
 ```bash
 GEMINI_API_KEY=your_gemini_api_key_here
 RAPIDAPI_KEY=your_rapidapi_key_here
 ```
 
-4. *Run the CLI"
+4. **Run the CLI**
 ```bash
 node cli.js
 ```
